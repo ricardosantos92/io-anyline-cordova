@@ -18,11 +18,10 @@
                 <param name="ios-package" value="AnylineSDKPlugin"/>
             </feature>
         </config-file>
-	    
-	<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
             <string>Allow Anyline to access you camera?</string>
         </config-file>
-	    
+
         <!-- Anyline SDK Cordova Plugin Source for iOS -->
         <header-file src="src/ios/AnylineSDKPlugin.h"/>
         <source-file src="src/ios/AnylineSDKPlugin.m"/>
